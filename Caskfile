@@ -13,6 +13,7 @@ cask install osxfuse
 cask install android-studio-bundle
 cask install iterm2 
 cask install opera 
+cask install heroku-toolbelt
 cask install sublime-text 
 cask install the-unarchiver 
 cask install vmware-fusion
