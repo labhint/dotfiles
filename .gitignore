@@ -1,5 +1,4 @@
-# Compiled Python files
-*.pyc
+# Some sensible files to ignore
 
 # Folder view configuration files
 .DS_Store
