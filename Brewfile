@@ -35,13 +35,15 @@ install narwhal
 install vim --override-system-vi
 install homebrew/dupes/grep
 install homebrew/dupes/screen
+
+brew tap homebrew/dupes
 install homebrew/php/php55 --with-gmp
 
 # Install some CTF tools; see https://github.com/ctfs/write-ups
 
 install dns2tcp
 
-install xz
+
 
 # Install other useful binaries
 install ack
@@ -54,6 +56,7 @@ install node # This installs `npm` too using the recommended installation method
 install p7zip
 install tree
 install hub
+install xz
 install gcc
 
 
