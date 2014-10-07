@@ -18,8 +18,24 @@ alias ....="cd ../../.."
 alias .....="cd ../../../.."
 
 # Shortcuts to my Code folder in my home directory
-alias code="cd ~/Code"
-alias sites="cd ~/Code/sites"
+alias dev="cd ~/Dev"
+alias sites="cd ~/Dev/sites"
+alias works="cd ~/Dev/Workspace"
+alias vag="cd ~/Dev/Vagrant"
+alias built="cd ~/Dev/Built"
+alias src="cd ~/Dev/Sources"
+alias lic="cd ~/Dev/Licenses"
+alias dmg="cd ~/Dev/Dmg"
+alias iso="cd ~/Dev/Iso"
+alias vm="cd ~/Dev/Vmachines"
+
+alias sshs="eval "$(ssh-agent -s)""
+alias sshl="ssh-add -l"
+alias sshL="ssh-add -L"
+alias sshk="ssh-agent -k"
+alias sshc="cat ~/.ssh/id_rsa.pub"
+alias sshc="pbcopy < ~/.ssh/id_rsa.pub"
+
 
 # Enable aliases to be sudo’ed
 alias sudo='sudo '
