@@ -46,10 +46,10 @@ alias sshc="cat ~/.ssh/id_rsa.pub"
 alias sshp="pbcopy < ~/.ssh/id_rsa.pub"
 
 
-alias gculi ="docker run --rm -ti --volumes-from gcloud-config google/cloud-sdk gcutil listinstances"
-alias gculs ="docker run --rm -ti --volumes-from gcloud-config google/cloud-sdk gcutil ls"
-alias gccl ="docker run --rm -ti --volumes-from gcloud-config google/cloud-sdk gcloud components list"
-alias gccu ="docker run --rm -ti --volumes-from gcloud-config google/cloud-sdk gcloud components update"
+alias gculi="docker run --rm -ti --volumes-from gcloud-config google/cloud-sdk gcutil listinstances"
+alias gculs="docker run --rm -ti --volumes-from gcloud-config google/cloud-sdk gcutil ls"
+alias gccl="docker run --rm -ti --volumes-from gcloud-config google/cloud-sdk gcloud components list"
+alias gccu="docker run --rm -ti --volumes-from gcloud-config google/cloud-sdk gcloud components update"
 
 
 
