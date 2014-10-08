@@ -31,7 +31,7 @@ alias iso="cd ~/Dev/Iso"
 alias vmw="cd ~/Dev/Vmware"
 
 alias dropb="cd ~/Dropbox"
-alias lic="cd ~/Dropbox/Licenses"
+alias lic="cd ~/Dropbox/Credential/Licenses"
 alias site="cd ~/Dropbox/Sites"
 alias work="cd ~/Dropbox/Workspace"
 alias crd="cd ~/Dropbox/Credential"
