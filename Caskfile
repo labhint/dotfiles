@@ -16,9 +16,10 @@ cask install evernote
 cask install iterm2 
 cask install opera 
 cask install heroku-toolbelt
-cask install sublime-text 
+cask install addcleaner
 cask install the-unarchiver 
 cask install vmware-fusion
 cask install virtualbox 
 cask install vagrant
 cask install vlc 
+cask install caffeine
