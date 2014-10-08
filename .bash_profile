@@ -2,7 +2,7 @@
 
 # Open specified files in Sublime Text
 # "s ." will open the current directory in Sublime
-alias s='open -a "Sublime Text"'
+# alias s='open -a "Sublime Text"'
 
 # Color LS
 colorflag="-G"
@@ -19,22 +19,38 @@ alias .....="cd ../../../.."
 
 # Shortcuts to my Code folder in my home directory
 alias dev="cd ~/Dev"
-alias sites="cd ~/Dev/sites"
-alias works="cd ~/Dev/Workspace"
+
 alias vag="cd ~/Dev/Vagrant"
 alias built="cd ~/Dev/Built"
 alias src="cd ~/Dev/Sources"
-alias lic="cd ~/Dev/Licenses"
+alias demo="cd ~/Dev/Demo"
+alias data="cd ~/Dev/Data"
+alias src="cd ~/Dev/Sources"
 alias dmg="cd ~/Dev/Dmg"
 alias iso="cd ~/Dev/Iso"
-alias vm="cd ~/Dev/Vmachines"
+alias vmw="cd ~/Dev/Vmware"
+
+alias dropb="cd ~/Dropbox"
+alias lic="cd ~/Dropbox/Licenses"
+alias site="cd ~/Dropbox/Sites"
+alias work="cd ~/Dropbox/Workspace"
+alias crd="cd ~/Dropbox/Credential"
+alias sct="cd ~/Dropbox/Scripts"
+
 
 alias sshs="eval "$(ssh-agent -s)""
 alias sshl="ssh-add -l"
 alias sshL="ssh-add -L"
 alias sshk="ssh-agent -k"
 alias sshc="cat ~/.ssh/id_rsa.pub"
-alias sshc="pbcopy < ~/.ssh/id_rsa.pub"
+alias sshp="pbcopy < ~/.ssh/id_rsa.pub"
+
+
+alias gculi ="docker run --rm -ti --volumes-from gcloud-config google/cloud-sdk gcutil listinstances"
+alias gculs ="docker run --rm -ti --volumes-from gcloud-config google/cloud-sdk gcutil ls"
+alias gccl ="docker run --rm -ti --volumes-from gcloud-config google/cloud-sdk gcloud components list"
+alias gccu ="docker run --rm -ti --volumes-from gcloud-config google/cloud-sdk gcloud components update"
+
 
 
 # Enable aliases to be sudo’ed
@@ -123,3 +139,6 @@ export PROMPT_COMMAND='echo -ne "\033]0;${PWD##*/}\007"'
 
 # init z! (https://github.com/rupa/z)
 . ~/z.sh
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"
